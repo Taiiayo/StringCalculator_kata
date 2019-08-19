@@ -1,0 +1,10 @@
+D:\Projects\github cope projs\StringCalculator_kata\StringCalculator_kata\bin\Debug\netcoreapp2.2\StringCalculator_kata.deps.json
+D:\Projects\github cope projs\StringCalculator_kata\StringCalculator_kata\bin\Debug\netcoreapp2.2\StringCalculator_kata.runtimeconfig.json
+D:\Projects\github cope projs\StringCalculator_kata\StringCalculator_kata\bin\Debug\netcoreapp2.2\StringCalculator_kata.runtimeconfig.dev.json
+D:\Projects\github cope projs\StringCalculator_kata\StringCalculator_kata\bin\Debug\netcoreapp2.2\StringCalculator_kata.dll
+D:\Projects\github cope projs\StringCalculator_kata\StringCalculator_kata\bin\Debug\netcoreapp2.2\StringCalculator_kata.pdb
+D:\Projects\github cope projs\StringCalculator_kata\StringCalculator_kata\obj\Debug\netcoreapp2.2\StringCalculator_kata.csproj.CoreCompileInputs.cache
+D:\Projects\github cope projs\StringCalculator_kata\StringCalculator_kata\obj\Debug\netcoreapp2.2\StringCalculator_kata.AssemblyInfoInputs.cache
+D:\Projects\github cope projs\StringCalculator_kata\StringCalculator_kata\obj\Debug\netcoreapp2.2\StringCalculator_kata.AssemblyInfo.cs
+D:\Projects\github cope projs\StringCalculator_kata\StringCalculator_kata\obj\Debug\netcoreapp2.2\StringCalculator_kata.dll
+D:\Projects\github cope projs\StringCalculator_kata\StringCalculator_kata\obj\Debug\netcoreapp2.2\StringCalculator_kata.pdb

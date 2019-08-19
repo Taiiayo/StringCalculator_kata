@@ -1,0 +1,17 @@
+D:\Projects\github cope projs\StringCalculator_kata\StringCalc_kata\bin\Debug\netcoreapp2.2\xunit.runner.visualstudio.dotnetcore.testadapter.dll
+D:\Projects\github cope projs\StringCalculator_kata\StringCalc_kata\bin\Debug\netcoreapp2.2\xunit.runner.reporters.netcoreapp10.dll
+D:\Projects\github cope projs\StringCalculator_kata\StringCalc_kata\bin\Debug\netcoreapp2.2\xunit.runner.utility.netcoreapp10.dll
+D:\Projects\github cope projs\StringCalculator_kata\StringCalc_kata\bin\Debug\netcoreapp2.2\StringCalc_kata.deps.json
+D:\Projects\github cope projs\StringCalculator_kata\StringCalc_kata\bin\Debug\netcoreapp2.2\StringCalc_kata.runtimeconfig.json
+D:\Projects\github cope projs\StringCalculator_kata\StringCalc_kata\bin\Debug\netcoreapp2.2\StringCalc_kata.runtimeconfig.dev.json
+D:\Projects\github cope projs\StringCalculator_kata\StringCalc_kata\bin\Debug\netcoreapp2.2\StringCalc_kata.dll
+D:\Projects\github cope projs\StringCalculator_kata\StringCalc_kata\bin\Debug\netcoreapp2.2\StringCalc_kata.pdb
+D:\Projects\github cope projs\StringCalculator_kata\StringCalc_kata\bin\Debug\netcoreapp2.2\StringCalculator_kata.dll
+D:\Projects\github cope projs\StringCalculator_kata\StringCalc_kata\bin\Debug\netcoreapp2.2\StringCalculator_kata.pdb
+D:\Projects\github cope projs\StringCalculator_kata\StringCalc_kata\obj\Debug\netcoreapp2.2\StringCalc_kata.csprojAssemblyReference.cache
+D:\Projects\github cope projs\StringCalculator_kata\StringCalc_kata\obj\Debug\netcoreapp2.2\StringCalc_kata.csproj.CoreCompileInputs.cache
+D:\Projects\github cope projs\StringCalculator_kata\StringCalc_kata\obj\Debug\netcoreapp2.2\StringCalc_kata.AssemblyInfoInputs.cache
+D:\Projects\github cope projs\StringCalculator_kata\StringCalc_kata\obj\Debug\netcoreapp2.2\StringCalc_kata.AssemblyInfo.cs
+D:\Projects\github cope projs\StringCalculator_kata\StringCalc_kata\obj\Debug\netcoreapp2.2\StringCalc_kata.csproj.CopyComplete
+D:\Projects\github cope projs\StringCalculator_kata\StringCalc_kata\obj\Debug\netcoreapp2.2\StringCalc_kata.dll
+D:\Projects\github cope projs\StringCalculator_kata\StringCalc_kata\obj\Debug\netcoreapp2.2\StringCalc_kata.pdb
