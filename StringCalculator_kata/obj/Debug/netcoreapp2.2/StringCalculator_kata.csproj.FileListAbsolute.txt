@@ -8,3 +8,4 @@ D:\Projects\github cope projs\StringCalculator_kata\StringCalculator_kata\obj\De
 D:\Projects\github cope projs\StringCalculator_kata\StringCalculator_kata\obj\Debug\netcoreapp2.2\StringCalculator_kata.AssemblyInfo.cs
 D:\Projects\github cope projs\StringCalculator_kata\StringCalculator_kata\obj\Debug\netcoreapp2.2\StringCalculator_kata.dll
 D:\Projects\github cope projs\StringCalculator_kata\StringCalculator_kata\obj\Debug\netcoreapp2.2\StringCalculator_kata.pdb
+D:\Projects\github cope projs\StringCalculator_kata\StringCalculator_kata\obj\Debug\netcoreapp2.2\StringCalculator_kata.csprojAssemblyReference.cache

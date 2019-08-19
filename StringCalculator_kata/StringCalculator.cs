@@ -15,8 +15,9 @@ namespace StringCalculator_kata
             {
                 return 0;
             }
-
-            var ints = numbers.Split(delimiter).ToList();
+            List<string> ints = new List<string>();
+                ints.AddRange(numbers.Split(new Char[] { ',', '\n' }));
+            
             if (ints.Count == 1)
             {
                 return int.Parse(numbers);

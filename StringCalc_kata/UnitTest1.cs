@@ -48,5 +48,15 @@ namespace StringCalc_kata
 
             Assert.Equal(84, actualResult);
         }
+
+        [Fact]
+        public void AddWithNewLineDelimiter()
+        {
+            StringCalculator stringCalculator = new StringCalculator();
+
+            var actualResult = stringCalculator.Add("1\n2,3");
+
+            Assert.Equal(6, actualResult);
+        }
     }
 }
