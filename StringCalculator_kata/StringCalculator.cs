@@ -16,13 +16,13 @@ namespace StringCalculator_kata
 
             if (!ArrayContainsNegatives(intArr))
             {
-                if (intArr.Length == 1)
+                if (intArr.Length == 1 && intArr.First() < 1000)
                 {
                     return int.Parse(numbers);
                 }
                 else if (intArr.Length > 1)
                 {
-                    return intArr.Sum();
+                    return intArr.Where(x => x < 1000).Sum();
                 }
             }
             return 5;

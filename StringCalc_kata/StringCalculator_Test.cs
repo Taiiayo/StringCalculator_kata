@@ -78,5 +78,15 @@ namespace StringCalc_kata
 
             Assert.Equal("negatives -11,-2 not allowed", ex.Message);
         }
+
+        [Fact]
+        public void IgnoreNumbersBiggerThanThousandAtSumming()
+        {
+            StringCalculator stringCalculator = new StringCalculator();
+
+            var actualResult = stringCalculator.Add("//;\n1;2000");
+
+            Assert.Equal(1, actualResult);
+        }
     }
 }
