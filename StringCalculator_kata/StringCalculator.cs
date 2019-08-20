@@ -50,7 +50,14 @@ namespace StringCalculator_kata
 
             if (numbers.StartsWith("//"))
             {
-                intsInStringFormat = SplitByCustomDelimiter(numbers, intsInStringFormat);
+                if (numbers.StartsWith("//["))
+                {
+                    intsInStringFormat = SplitByUnknownDelimiter(numbers, intsInStringFormat);
+                }
+                else
+                {
+                    intsInStringFormat = SplitByCustomDelimiter(numbers, intsInStringFormat);
+                }
             }
             else
             {
@@ -65,6 +72,16 @@ namespace StringCalculator_kata
             char delimiter = numbers.Skip(2).First();
             numbers = numbers.Split("\n").Last();
             intsInStringFormat.AddRange(numbers.Split(delimiter));
+            return intsInStringFormat;
+        }
+
+        public List<string> SplitByUnknownDelimiter(string numbers, List<string> intsInStringFormat)
+        {
+            IEnumerable<char> delimiters = numbers.Skip(3);
+            delimiters = delimiters.TakeWhile(i => i != ']');
+            string delimiter = string.Join("", delimiters);
+            numbers = numbers.Split("\n").Last();
+            intsInStringFormat.AddRange(numbers.Split(delimiter.ToArray()));
             return intsInStringFormat;
         }
     }
