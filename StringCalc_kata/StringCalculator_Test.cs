@@ -4,7 +4,7 @@ using StringCalculator_kata;
 
 namespace StringCalc_kata
 {
-    public class UnitTest1
+    public class StringCalculator_Test
     {
         [Fact]
         public void Add()

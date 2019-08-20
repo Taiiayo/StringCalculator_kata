@@ -1,33 +1,36 @@
 ﻿using System;
 using System.Collections.Generic;
 using System.Linq;
-using System.Text;
 
 namespace StringCalculator_kata
 {
     public class StringCalculator
     {
         public int Add(string numbers)
-        {            
-            List<string> ints = new List<string>();
+        {
             if (string.IsNullOrEmpty(numbers))
             {
                 return 0;
             }
-            else if (numbers.StartsWith("//"))
-            {
-                char delimiter = numbers.Skip(2).First();
-                numbers = numbers.Split("\n").Last();
-                ints.AddRange(numbers.Split(delimiter));
-            }
-            else
-            {
-                ints.AddRange(numbers.Split(new Char[] { ',', '\n' }));
-            }
+            int[] intArr = GetIntegerArray(numbers);
 
-            var intArr = ints.Select(int.Parse).ToArray();
+            if (!ArrayContainsNegatives(intArr))
+            {
+                if (intArr.Length == 1)
+                {
+                    return int.Parse(numbers);
+                }
+                else if (intArr.Length > 1)
+                {
+                    return intArr.Sum();
+                }
+            }
+            return 5;
+        }
 
-            var negativeNumbers = intArr.Where(x => x < 0)
+        public bool ArrayContainsNegatives(int[] intArr)
+        {
+            List<int> negativeNumbers = intArr.Where(x => x < 0)
                                               .ToList();
             if (negativeNumbers.Any())
             {
@@ -35,18 +38,34 @@ namespace StringCalculator_kata
                                                           string.Join(",",
                                                                       negativeNumbers)));
             }
-
-            if (intArr.Length == 1)
+            else
             {
-                return int.Parse(numbers);
+                return false;
             }
-            else if(intArr.Length > 1)
+        }
+
+        public int[] GetIntegerArray(string numbers)
+        {
+            List<string> intsInStringFormat = new List<string>();
+
+            if (numbers.StartsWith("//"))
             {
-                return intArr.Sum();
+                intsInStringFormat = SplitByCustomDelimiter(numbers, intsInStringFormat);
+            }
+            else
+            {
+                intsInStringFormat.AddRange(numbers.Split(new Char[] { ',', '\n' }));
             }
 
+            return intsInStringFormat.Select(int.Parse).ToArray();
+        }
 
-            return 5;
+        public List<string> SplitByCustomDelimiter(string numbers, List<string> intsInStringFormat)
+        {
+            char delimiter = numbers.Skip(2).First();
+            numbers = numbers.Split("\n").Last();
+            intsInStringFormat.AddRange(numbers.Split(delimiter));
+            return intsInStringFormat;
         }
     }
 }
