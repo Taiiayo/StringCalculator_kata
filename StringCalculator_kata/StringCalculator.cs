@@ -7,16 +7,25 @@ namespace StringCalculator_kata
 {
     public class StringCalculator
     {
-        private const char delimiter = ',';
-
         public int Add(string numbers)
         {
+            List<string> ints = new List<string>();
             if (string.IsNullOrEmpty(numbers))
             {
                 return 0;
             }
-            List<string> ints = new List<string>();
+            else if (numbers.StartsWith("//"))
+            {
+                char delimiter = numbers.Skip(2).First();
+                numbers = numbers.Split("\n").Last();
+                ints.AddRange(numbers.Split(delimiter));
+            }
+            else
+            {
                 ints.AddRange(numbers.Split(new Char[] { ',', '\n' }));
+            }
+            
+                
             
             if (ints.Count == 1)
             {
