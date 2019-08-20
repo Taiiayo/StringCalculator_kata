@@ -81,7 +81,7 @@ namespace StringCalculator_kata
             delimiters = delimiters.TakeWhile(i => i != ']');
             string delimiter = string.Join("", delimiters);
             numbers = numbers.Split("\n").Last();
-            intsInStringFormat.AddRange(numbers.Split(delimiter.ToArray()));
+            intsInStringFormat.AddRange(numbers.Split(delimiter));
             return intsInStringFormat;
         }
     }

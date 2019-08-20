@@ -94,7 +94,17 @@ namespace StringCalc_kata
         {
             StringCalculator stringCalculator = new StringCalculator();
 
-            var actualResult = stringCalculator.Add("//[***]\n1***2***3");
+            var actualResult = stringCalculator.Add("//[**$*]\n1**$*2**$*3");
+
+            Assert.Equal(6, actualResult);
+        }
+
+        [Fact]
+        public void AllowMultipleDelimiters()
+        {
+            StringCalculator stringCalculator = new StringCalculator();
+
+            var actualResult = stringCalculator.Add("//[*][%]\n1*2%3");
 
             Assert.Equal(6, actualResult);
         }
