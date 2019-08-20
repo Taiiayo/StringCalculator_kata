@@ -68,5 +68,15 @@ namespace StringCalc_kata
 
             Assert.Equal(3, actualResult);
         }
+
+        [Fact]
+        public void ThrowExceptionIfNegative()
+        {
+            StringCalculator stringCalculator = new StringCalculator();
+
+            var ex = Assert.Throws<ArgumentException>(() => stringCalculator.Add("//;\n-11;-2"));
+
+            Assert.Equal("negatives -11,-2 not allowed", ex.Message);
+        }
     }
 }
