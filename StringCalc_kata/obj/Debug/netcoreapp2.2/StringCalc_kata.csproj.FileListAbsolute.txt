@@ -15,3 +15,20 @@ D:\Projects\github cope projs\StringCalculator_kata\StringCalc_kata\obj\Debug\ne
 D:\Projects\github cope projs\StringCalculator_kata\StringCalc_kata\obj\Debug\netcoreapp2.2\StringCalc_kata.csproj.CopyComplete
 D:\Projects\github cope projs\StringCalculator_kata\StringCalc_kata\obj\Debug\netcoreapp2.2\StringCalc_kata.dll
 D:\Projects\github cope projs\StringCalculator_kata\StringCalc_kata\obj\Debug\netcoreapp2.2\StringCalc_kata.pdb
+D:\Users\Taiiayo\StringCalculator_kata\StringCalc_kata\bin\Debug\netcoreapp2.2\xunit.runner.visualstudio.dotnetcore.testadapter.dll
+D:\Users\Taiiayo\StringCalculator_kata\StringCalc_kata\bin\Debug\netcoreapp2.2\xunit.runner.reporters.netcoreapp10.dll
+D:\Users\Taiiayo\StringCalculator_kata\StringCalc_kata\bin\Debug\netcoreapp2.2\xunit.runner.utility.netcoreapp10.dll
+D:\Users\Taiiayo\StringCalculator_kata\StringCalc_kata\bin\Debug\netcoreapp2.2\StringCalc_kata.deps.json
+D:\Users\Taiiayo\StringCalculator_kata\StringCalc_kata\bin\Debug\netcoreapp2.2\StringCalc_kata.runtimeconfig.json
+D:\Users\Taiiayo\StringCalculator_kata\StringCalc_kata\bin\Debug\netcoreapp2.2\StringCalc_kata.runtimeconfig.dev.json
+D:\Users\Taiiayo\StringCalculator_kata\StringCalc_kata\bin\Debug\netcoreapp2.2\StringCalc_kata.dll
+D:\Users\Taiiayo\StringCalculator_kata\StringCalc_kata\bin\Debug\netcoreapp2.2\StringCalc_kata.pdb
+D:\Users\Taiiayo\StringCalculator_kata\StringCalc_kata\bin\Debug\netcoreapp2.2\StringCalculator_kata.dll
+D:\Users\Taiiayo\StringCalculator_kata\StringCalc_kata\bin\Debug\netcoreapp2.2\StringCalculator_kata.pdb
+D:\Users\Taiiayo\StringCalculator_kata\StringCalc_kata\obj\Debug\netcoreapp2.2\StringCalc_kata.csprojAssemblyReference.cache
+D:\Users\Taiiayo\StringCalculator_kata\StringCalc_kata\obj\Debug\netcoreapp2.2\StringCalc_kata.csproj.CoreCompileInputs.cache
+D:\Users\Taiiayo\StringCalculator_kata\StringCalc_kata\obj\Debug\netcoreapp2.2\StringCalc_kata.AssemblyInfoInputs.cache
+D:\Users\Taiiayo\StringCalculator_kata\StringCalc_kata\obj\Debug\netcoreapp2.2\StringCalc_kata.AssemblyInfo.cs
+D:\Users\Taiiayo\StringCalculator_kata\StringCalc_kata\obj\Debug\netcoreapp2.2\StringCalc_kata.csproj.CopyComplete
+D:\Users\Taiiayo\StringCalculator_kata\StringCalc_kata\obj\Debug\netcoreapp2.2\StringCalc_kata.dll
+D:\Users\Taiiayo\StringCalculator_kata\StringCalc_kata\obj\Debug\netcoreapp2.2\StringCalc_kata.pdb

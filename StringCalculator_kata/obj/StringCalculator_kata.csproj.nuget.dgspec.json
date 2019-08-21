@@ -1,23 +1,23 @@
 {
   "format": 1,
   "restore": {
-    "D:\\Projects\\github cope projs\\StringCalculator_kata\\StringCalculator_kata\\StringCalculator_kata.csproj": {}
+    "D:\\Users\\Taiiayo\\StringCalculator_kata\\StringCalculator_kata\\StringCalculator_kata.csproj": {}
   },
   "projects": {
-    "D:\\Projects\\github cope projs\\StringCalculator_kata\\StringCalculator_kata\\StringCalculator_kata.csproj": {
+    "D:\\Users\\Taiiayo\\StringCalculator_kata\\StringCalculator_kata\\StringCalculator_kata.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "D:\\Projects\\github cope projs\\StringCalculator_kata\\StringCalculator_kata\\StringCalculator_kata.csproj",
+        "projectUniqueName": "D:\\Users\\Taiiayo\\StringCalculator_kata\\StringCalculator_kata\\StringCalculator_kata.csproj",
         "projectName": "StringCalculator_kata",
-        "projectPath": "D:\\Projects\\github cope projs\\StringCalculator_kata\\StringCalculator_kata\\StringCalculator_kata.csproj",
-        "packagesPath": "C:\\Users\\User\\.nuget\\packages\\",
-        "outputPath": "D:\\Projects\\github cope projs\\StringCalculator_kata\\StringCalculator_kata\\obj\\",
+        "projectPath": "D:\\Users\\Taiiayo\\StringCalculator_kata\\StringCalculator_kata\\StringCalculator_kata.csproj",
+        "packagesPath": "C:\\Users\\Undermove\\.nuget\\packages\\",
+        "outputPath": "D:\\Users\\Taiiayo\\StringCalculator_kata\\StringCalculator_kata\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
         ],
         "configFilePaths": [
-          "C:\\Users\\User\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Users\\Undermove\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [

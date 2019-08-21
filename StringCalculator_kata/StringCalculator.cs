@@ -1,6 +1,7 @@
 ﻿using System;
 using System.Collections.Generic;
 using System.Linq;
+using System.Text.RegularExpressions;
 
 namespace StringCalculator_kata
 {
@@ -77,19 +78,16 @@ namespace StringCalculator_kata
 
         public List<string> FindAllDelimeters(string numbers, List<string> intsInStringFormat)
         {
-            IEnumerable<char> allDelimiters = numbers.Skip(3).TakeWhile(i => i != '\n');
-            List<string> delims = new List<string>();
-            while(allDelimiters.Count() != 0)
-            {
-                var delimiter = allDelimiters.TakeWhile(i => i != ']');
-                delims.Add(string.Join("", delimiter));
-
-                allDelimiters = allDelimiters.Except(delimiter).Skip(2);
-            }
+            var arrayOfDelimiters = Regex.Matches(numbers, @"\[.*?\]")                
+                .Cast<Match>()                
+                .Select(m => m.Value)
+                .Select(i => i.Replace("[", ""))
+                .Select(i => i.Replace("]", ""))
+                .ToList();
 
             numbers = numbers.Split("\n").Last();
-            intsInStringFormat.AddRange(numbers.Split(delims.ToArray(), StringSplitOptions.None).ToList());
-                      
+            intsInStringFormat.AddRange(numbers.Split(arrayOfDelimiters.ToArray(), StringSplitOptions.None).ToList());
+
             return intsInStringFormat;
         }
     }

@@ -9,3 +9,13 @@ D:\Projects\github cope projs\StringCalculator_kata\StringCalculator_kata\obj\De
 D:\Projects\github cope projs\StringCalculator_kata\StringCalculator_kata\obj\Debug\netcoreapp2.2\StringCalculator_kata.dll
 D:\Projects\github cope projs\StringCalculator_kata\StringCalculator_kata\obj\Debug\netcoreapp2.2\StringCalculator_kata.pdb
 D:\Projects\github cope projs\StringCalculator_kata\StringCalculator_kata\obj\Debug\netcoreapp2.2\StringCalculator_kata.csprojAssemblyReference.cache
+D:\Users\Taiiayo\StringCalculator_kata\StringCalculator_kata\bin\Debug\netcoreapp2.2\StringCalculator_kata.deps.json
+D:\Users\Taiiayo\StringCalculator_kata\StringCalculator_kata\bin\Debug\netcoreapp2.2\StringCalculator_kata.runtimeconfig.json
+D:\Users\Taiiayo\StringCalculator_kata\StringCalculator_kata\bin\Debug\netcoreapp2.2\StringCalculator_kata.runtimeconfig.dev.json
+D:\Users\Taiiayo\StringCalculator_kata\StringCalculator_kata\bin\Debug\netcoreapp2.2\StringCalculator_kata.dll
+D:\Users\Taiiayo\StringCalculator_kata\StringCalculator_kata\bin\Debug\netcoreapp2.2\StringCalculator_kata.pdb
+D:\Users\Taiiayo\StringCalculator_kata\StringCalculator_kata\obj\Debug\netcoreapp2.2\StringCalculator_kata.csproj.CoreCompileInputs.cache
+D:\Users\Taiiayo\StringCalculator_kata\StringCalculator_kata\obj\Debug\netcoreapp2.2\StringCalculator_kata.AssemblyInfoInputs.cache
+D:\Users\Taiiayo\StringCalculator_kata\StringCalculator_kata\obj\Debug\netcoreapp2.2\StringCalculator_kata.AssemblyInfo.cs
+D:\Users\Taiiayo\StringCalculator_kata\StringCalculator_kata\obj\Debug\netcoreapp2.2\StringCalculator_kata.dll
+D:\Users\Taiiayo\StringCalculator_kata\StringCalculator_kata\obj\Debug\netcoreapp2.2\StringCalculator_kata.pdb

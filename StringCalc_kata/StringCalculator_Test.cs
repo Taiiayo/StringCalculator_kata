@@ -108,5 +108,15 @@ namespace StringCalc_kata
 
             Assert.Equal(6, actualResult);
         }
+
+        [Fact]
+        public void AllowMultipleDelimiersWithUnknownLength()
+        {
+            StringCalculator stringCalculator = new StringCalculator();
+
+            var actualResult = stringCalculator.Add("//[**][%%%]\n1**2%%%3");
+
+            Assert.Equal(6, actualResult);
+        }
     }
 }
